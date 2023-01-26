@@ -1,0 +1,107 @@
+body{
+    background-image: url("../images/2.jpg");
+    background-size: cover;
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    height: 90vh;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+ 
+ div img {
+   border-radius: 50%; 
+} 
+div:hover{
+    animation-play-state: paused;
+}
+.d1{
+    text-align: center;
+    margin-top: 30px;
+}
+/* .d{
+    width: 100%;
+    height: 1px;
+    border-radius: 50%,50%;
+    background-color: rgb(236, 234, 234);
+    border-left: 0px;
+    border-right: 0p;
+} */
+.d2{
+    animation-name: change;
+    animation-duration: 8s;
+    position: absolute;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+    animation-iteration-count: 2;
+    
+}
+@keyframes change{
+    0%{transform: rotate(0deg)  translateX(160px) rotate(0deg) ; left: 52%; top: 0; }
+    100%{transform: rotate(180deg)  translateX(160px) rotate(-180deg) ; left: 50%; top: 0; }  
+}
+
+ .d3{
+    animation-name: change3;
+    animation-duration: 6s;
+    position: absolute;
+    animation-timing-function: linear;
+    animation-fill-mode: both;
+    animation-iteration-count: 2;
+
+}
+@keyframes change3{
+    
+    0%{transform: rotate(0deg)  translateX(250px) rotate(0deg) ; top:0; left: 53%;}
+    100%{transform: rotate(180deg)  translateX(250px) rotate(-180deg) ; top: 0; left: 49%;}
+   
+}
+
+.d4{
+    animation-name: change4;
+    animation-duration: 5s;
+    position: absolute;
+    animation-iteration-count: 2;
+    animation-fill-mode: forwards;
+}
+@keyframes change4{
+    0%{transform: rotate(0deg)  translateX(330px) rotate(0deg) ; top: 0; left: 57%; }
+    100%{transform: rotate(180deg)  translateX(330px) rotate(-180deg) ; top: 0px; left: 46%;}
+} 
+
+.d5{
+    animation-name: change5;
+    animation-duration: 5.5s;
+    position: absolute;
+    animation-fill-mode: both;
+    animation-iteration-count: 2;
+}
+@keyframes change5{
+    0%{transform: rotate(0deg)  translateX(400px) rotate(0deg) ; top: 0; left: 59%; }
+    100%{transform: rotate(180deg)  translateX(400px) rotate(-180deg) ; top: 0px; left: 43%;}
+} 
+.d6{
+    animation-name: change6;
+    animation-duration: 6.5s;
+    position: absolute;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 2;
+}
+@keyframes change6{
+    0%{transform: rotate(0deg)  translateX(500px) rotate(0deg) ; top: 0px; left: 61%;}
+    100%{transform: rotate(180deg)  translateX(500px) rotate(-180deg) ; top: 0px; left: 40%;}
+} 
+.d7{
+    animation-name: change7;
+    animation-duration: 6s;
+    position: absolute;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 2;
+}
+@keyframes change7{
+    0%{transform: rotate(0deg)  translateX(650px) rotate(0deg) ; top: 0px; left: 63%;}
+    100%{transform: rotate(180deg)  translateX(650px) rotate(-180deg) ; top: 0px; left: 38%;}
+} 
+
+   
